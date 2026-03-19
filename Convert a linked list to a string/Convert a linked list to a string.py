@@ -20,5 +20,3 @@ def stringify(node):
         node = node.next
     return ' -> '.join(nodes_str) + ' -> None'
 
-example1 = None
-print(stringify(example1))
