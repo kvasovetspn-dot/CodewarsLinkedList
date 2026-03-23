@@ -18,14 +18,3 @@ def move_node(source, dest):
     new.next = dest
     return Context(new1, new)
 
-source = Node(1)
-source.next = Node(2)
-source.next.next = Node(3)
-dest = Node(4)
-dest.next = Node(5)
-dest.next.next = Node(6)
-while move_node(source, dest).source:
-    print(move_node(source, dest).source)
-    move_node(source, dest).source = move_node(source, dest).source.next
-print(move_node(source, dest).source)
-print(move_node(source, dest).dest)

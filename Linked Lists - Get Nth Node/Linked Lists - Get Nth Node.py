@@ -22,5 +22,3 @@ def get_nth(node, index):
 
     raise Exception
 
-print(get_nth('1 -> 2 -> 3 -> null', 0).data)
-print(get_nth('1 -> 2 -> 3 -> null', 1).data)
